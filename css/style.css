@@ -1,0 +1,622 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
+}
+
+P {
+    font-size: 16px;
+    line-height: 26px;
+    color: #bbbcbe;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.underline {
+    width: 100px;
+    height: 2px;
+    background: #ff8b38;
+    margin: 0 auto;
+}
+
+/* header css */
+header {
+    width: 100%;
+    padding: 10px 0px;
+    background: #000;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.nav-item .active {
+    color: white !important;
+}
+
+.banner-section {
+    width: 100%;
+    background: url(../img/bg.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content h1 {
+    font-size: 75px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.content h1 span {
+    font-weight: 300;
+    color: #ff8b38;
+}
+
+.content h2 {
+    color: #fff;
+    width: 74%;
+
+}
+
+
+.content .underline {
+    margin: 25px 0px;
+    background-color: #fff !important;
+    width: 72px;
+}
+
+.content p {
+    width: 66%;
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #fff;
+}
+
+.btns a {
+    padding: 8px 30px;
+}
+
+.btns .btn-info {
+    background: transparent;
+    border-radius: 0px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.cus-height {
+    height: 100vh;
+}
+
+.right-inner {}
+
+.card {
+    width: 375px;
+    border: none;
+}
+
+.card .card-header h3 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card .card-header h3 span {
+    color: #ff8b38;
+    text-transform: uppercase;
+
+}
+
+.card-body {
+    padding: 25px 35px;
+}
+
+.card-footer {
+    padding: 0px;
+
+}
+
+.card-footer input {
+    background-color: #ff8b38;
+
+}
+
+.card .card-footer .form-control {
+    border: none !important;
+    background: #ff8b38 !important;
+
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 1px solid #a8a8a8 !important;
+    border-radius: 0;
+}
+
+::placeholder {
+    color: rgb(185, 183, 187) !important;
+
+}
+
+.socail-section {
+    width: 100%;
+    padding: 12px 0px;
+    border-bottom: 2px solid #b7b7b7;
+}
+
+.socail-section .title {}
+
+.socail-section .title h4 {}
+
+.socail-section .title p {
+    /* color: #bbbcbe; */
+    width: 88%;
+}
+
+.social-icons {
+    text-align: right;
+}
+
+.social-icons ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.social-icons ul li a {}
+
+.social-icons ul li a i {
+    font-size: 58px;
+    color: #cccccc;
+}
+
+.tab-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #f5f5f5;
+}
+
+button.nav-link {
+    width: 90px !important;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #333333;
+    /* border-radius: 0px !important; */
+    padding: 30px 0px;
+}
+
+.tab-1 {
+    border-radius: 4px 4px 0px 0px !important;
+    border-bottom: 1px solid #bbbcbe;
+}
+
+.tab-2 {
+    border-radius: 0px !important;
+    border-bottom: 1px solid #bbbcbe;
+}
+
+.tab-3 {
+    border-radius: 0px 0px 4px 4px !important;
+}
+
+.nav-pills .nav-link.active {
+    background: #ff8b38;
+}
+
+.me-3 {
+    margin-right: 4rem !important;
+}
+
+.tap-right {
+    text-align: right;
+}
+
+.tab-content .btns a {
+    background-color: #ff8b38 !important;
+    border: 1px solid #ff8b38;
+    margin-top: 20px;
+}
+
+.tab-content p {
+    line-height: ;
+}
+
+.list-section {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.list-section .right .underline {
+    margin: 0;
+    width: 50px;
+    margin: 20px 0px;
+
+}
+
+.list-section .right p {
+    width: 72%;
+    margin-bottom: 30px;
+}
+
+.list-section .right .list {
+    display: flex;
+
+}
+
+.list-section .right .list .list-right {
+    margin-left: 30px;
+}
+
+.list-section .right .list .list-right h6 {
+    font-size: 16px;
+}
+
+.list-section .right .list .list-right p {
+    width: 70%;
+}
+
+.list-section .list i {
+    font-size: 20px;
+    color: #ff8b38;
+    border: 1px solid #ff8b38;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.list-1 {
+    margin-bottom: 20px;
+}
+
+.pic-section {
+    background: #f5f5f5;
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.pic-section .underline {
+    margin: 0;
+    width: 50px;
+    margin: 20px 0px;
+}
+
+.awesome-section {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.awesome-section .why .underline {
+    margin: 25px auto;
+    width: 50px;
+    height: 2px;
+    background-color: #ff8b38;
+    transition: 0.7s;
+}
+
+.awesome-section .why span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.awesome-section .design .icon-inner i {
+    padding: 5% 7%;
+    border: 3px solid #ff8b38;
+    border-radius: 100%;
+    color: #ff8b38;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.awesome-section .design {
+    padding: 55px 0px;
+}
+
+.awesome-section .design h6 {
+    padding: 15px 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.awesome-section .design p {
+    margin: 0px 20px;
+    width: 99%;
+}
+
+/* price section css start */
+
+.price-section {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.price-section .options {
+   margin-bottom: 100px;
+
+}
+
+.price-section .options .underline {
+    margin: 25px auto;
+    width: 50px;
+    height: 2px;
+    background-color: #ff8b38;
+
+}
+
+.price-section .options span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.price-section .card .card-header {
+    background-color: #333333;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+    padding: 10px 0 5px;
+}
+
+.price-section .card .card-header h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.price-section .card .card-body {
+    background-color: #333333;
+    padding: 0;
+    border-bottom: 4px solid #ff8b38;
+}
+
+.price-section .card .card-body h1 {
+    font-size: 94px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.price-section .card .card-body span {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.price-section .card .card-body p {
+    font-size: 14px;
+    font-style: italic;
+    color: #808080;
+
+}
+
+.price-section .card .card-footer {
+    background: #ffffff;
+    padding: 0;
+    
+}
+
+/* pblm here  */
+
+.price-section .card .card-footer ul i {
+    font-size: 14x;
+    text-transform: uppercase;
+    color: #999999;
+    
+}
+
+.cust-list{
+    background-color: #ff8b38 !important;
+}
+
+.cus-body{
+    border-bottom: none !important;
+}
+.cus-footer{
+    border: none !important;
+}
+/* testimonial section start */
+
+.testimonial-section .our {
+    text-align: center;
+    padding: 40px 0px;
+}
+.testimonial-section .our .underline{
+    margin: 25px auto;
+    width: 50px;
+    height: 2px;
+    background-color: #ff8b38;
+}
+.testimonial-section .our p {
+    margin-bottom: 35px;
+}
+testimonial-section{
+    padding: 80px 0px;
+}
+.t-inner .parent{
+    background: #f5f5f5;
+    padding: 20px 20px 10px;
+    width: 78%;
+    position: relative;
+}
+.t-inner .parent p{
+    font-style: italic;
+    font-size: 14px;
+}
+.t-inner .parent .child{
+    position: absolute;
+    background: #f5f5f5;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    bottom: -3px;
+    left: 27px;
+}
+
+.t-inner .intro{
+    display: flex;
+    margin-top: 25px;
+}
+
+.t-inner .intro .left {
+    margin-right: 25px;
+}
+.t-inner .intro .right{
+    
+}
+.t-inner .intro .right h4{
+    
+}
+.t-inner .intro .right p{
+    
+}
+
+.design-section{
+    margin-top: 55px;
+    width: 100%;
+    padding: 60px 0px;
+    text-align: center;
+    background: url(../img/b2.png) center no-repeat;
+}
+
+
+.design-section .style p{
+    padding: 30px 0;
+}
+.design-section .style h2{
+   color: #fff;
+   padding: 30px;
+}
+.design-section .style .btns a{
+   border-radius: 0 !important;
+   background: transparent;
+   border-color: #f5f5f5;
+}
+.contact-section{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+    
+}
+.contact-section .us h2{
+    padding: 25px;
+   
+}
+.contact-section .us p{
+    margin-top: 10px;
+   
+}
+.contact-section .us .underline{
+    margin: 25px auto;
+    width: 80px;
+    height: 2px;
+    background-color: #ff8b38;
+   
+}
+.contact-section form {
+    width: 64%;
+    margin: 70px auto 0px;
+    margin-bottom: -131px;
+    position: relative;
+    z-index: 1;
+}
+form .form-inner {
+    display: flex;
+    padding: 50px 35px;
+}
+form .form-inner .left {
+    flex-basis: 50%;
+    margin-right: 10px;
+}
+input {
+    padding: 10px 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    background: transparent;
+    border: 1px solid #270404;
+}
+
+form .form-inner .right {
+    flex-basis: 50%;
+    margin-left: 10px;
+}
+
+textarea {
+    padding: 13px 9px;
+    width: 100%;
+    height: 137px;
+    border-radius: 9px;
+    margin-bottom: 2px;
+    background: transparent;
+    border: 1px solid #490505;
+}
+
+.btns .btn-primary {
+    background: #ff8b38;
+    border: 1px solid #ff8b38;
+}
+
+footer .social-media-icons {
+    font-size: 24px;
+}
+
+
+.social-media-icons  i {
+    color: #cccccc !important;
+    font-size: 45px;
+    padding-left: 30px;
+    transition-duration: 0.3s;
+}
+.text-center {
+    text-align: center!important;
+}
+footer h5 {
+    font-size: 14px;
+    color: #999999;
+}
+footer {
+    /* display: block;
+    unicode-bidi: isolate; */
+    background: #270404;
+    padding: 80px 0px;
+}
+.pt-3 {
+    padding-top: 1rem!important;
+}
